@@ -4,8 +4,10 @@ Python code for converting a number from & to any base. Eg:
 
 **INPUT**
 > Input number to convert: 32
-> Input base of this number: 10
-> Input base to convert to: 16
+
+> Input base of this number: 10 
+
+> Input base to convert to: 16 
 
 **OUTPUT**
 > 20
