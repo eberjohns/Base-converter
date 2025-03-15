@@ -1,6 +1,6 @@
 # test for base_conversion.py
 import pytest
-from base_conversion import convert_base  # Function name
+from folder/base_conversion import convert_base  # Function name
 
 def test_valid_conversion():
     assert convert_base(10, 10, 2) == "1010"
