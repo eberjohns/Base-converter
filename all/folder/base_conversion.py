@@ -36,12 +36,17 @@ def convert_base(n, from_base, to_base):
 
     return result
 
-n = int(input("Input number to convert: "))
-f = int(input("Input base of this number: "))
-t = int(input("Input base to convert to: "))
+def main():
+    n = int(input("Input number to convert: "))
+    f = int(input("Input base of this number: "))
+    t = int(input("Input base to convert to: "))
 
-try:
-    converted = convert_base(n, f, t)
-    print(converted)
-except (ValueError, TypeError) as e:
-    print(f"Error: {e}")
+    try:
+        converted = convert_base(n, f, t)
+        print(converted)
+    except (ValueError, TypeError) as e:
+        print(f"Error: {e}")
+
+#main()
+if __name__ == "__main__":
+    main()
