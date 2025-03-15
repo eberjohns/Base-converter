@@ -1,6 +1,17 @@
-# learning-the-curve
-This is just for learning about github.
+# Base Converter
 
-This repo will be populated with lot of fancy checks.
+Python code for converting a number from & to any base. Eg:
 
-Also going to use this for checking out actions, documenting etc...
+**INPUT**
+> Input number to convert: 32
+> Input base of this number: 10
+> Input base to convert to: 16
+
+**OUTPUT**
+> 20
+
+## Aim:
+
+This should support the conversion of any base like 17, 23 or any other you could think of... so the symbols can be extended to **ASCII** characters.
+
+Finally integrate into a website.
